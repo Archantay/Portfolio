@@ -1,0 +1,71 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0a1b6cc7;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-top: 80px; /* Ajoute de l'espace en haut de la page pour compenser le header fixe */
+}
+
+.header .logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header .nav-socials {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.header .nav-social-container {
+  display: flex;
+  align-items: center;
+}
+
+.header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  margin:0 30px 0 20px;  /* Espace régulier entre les catégories */
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.header nav ul li a:hover {
+  color: #0f1c50cd;
+}
+
+.header .socials {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;  /* Espace plus petit entre les catégories et les icônes sociales */
+}
+
+.header .socials a {
+  margin-left: 10px;  /* Espace réduit entre les icônes sociales */
+}
+
+.header .socials img {
+  width: 25px;
+  height: 25px;
+}
