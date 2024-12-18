@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import projet1 from '../photo/siteBookiPresentation.png';
-import projet2 from '../photo/kasaPresentation.png';
-import projet3 from '../photo/sophieBluelPresentation.png';
-import projet4 from '../photo/ninaCarducciPresentation.png';
+import projet2 from '../photo/sophieBluelPresentation.png';
+import projet3 from '../photo/ninaCarducciPresentation.png';
+import projet4 from '../photo/kasaPresentation.png';
 import '../styles/carousel.scss';
 
 const Carrousel = () => {
@@ -10,16 +10,34 @@ const Carrousel = () => {
   
   // Liste des projets avec titres, descriptions et images
   const projects = [
-    { title: "Projet 1",
-      description: "Un aperçu de mon premier projet.",
-      issue: "Résolution des bugs d'affichage sur mobile",
-      skills: "HTML, CSS, JavaScrispt",
-      link: "",
+    { title: "Site Booki",
+      description: "J'ai du developper une page d'accueil pour une agence de voyage.",
+      issue: "Rendre les page d'accueil responsive et conforme à la maquette.",
+      skills: "HTML et CSS",
+      link: "https://git@github.com/Archantay/Projet-2-Cr-er-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-CSS.git",
       image: projet1,
     },
-    { title: "Projet 2", description: "Un aperçu de mon deuxième projet.", image: projet2 },
-    { title: "Projet 3", description: "Un aperçu de mon troisième projet.", image: projet3 },
-    { title: "Projet 4", description: "Un aperçu de mon quatrième projet.", image: projet4 },
+    { title: "Porfolio architecte",
+      description: "Créez une page web dynamique avec JavaScript",
+      issue: "La gestion des événements utilisateurs et la manipulation des éléments du DOM",
+      skills: "JavaScript",
+      link: "https://github.com/Archantay/Portfolio-architecte-sophie-bluel",
+      image: projet2, 
+    },
+    { title: "Portfolio photographe",
+      description: "Améliorer les performances et l'accessibilité du site pour un meilleur référencement sur les moteurs de recherche.",
+      issue: "Comprendre les outils lighthouse et wave afin d'apporter les modifications nécessaires au bon référencement du site.",
+      skills: "HTML",
+      link: "https://github.com/Archantay/Nina-Carducci-Dev",
+      image: projet3, 
+    },
+    { title: "Kasa, agence immobilière",
+      description: "Implémenter le front-end d’une application en utilisant React et React Router",
+      issue: "La gestion des données dynamiques entre les differentes pages du site.",
+      skills: "JaveScript",
+      link: "https://git@github.com/Archantay/site-kasa.git",
+      image: projet4, 
+    },
   ];
 
   const nextProject = () => {
@@ -47,7 +65,7 @@ const Carrousel = () => {
           <div className="overlay">
             <h3>{projects[currentIndex].title}</h3>
             <p>{projects[currentIndex].description}</p>
-            <p><strong>Problèmes :</strong> {projects[currentIndex].issues}</p>
+            <p><strong>Problèmes :</strong> {projects[currentIndex].issue}</p>
             <p><strong>Compétences :</strong> {projects[currentIndex].skills}</p>
             <a href={projects[currentIndex].link} target="_blank" rel="noopener noreferrer">
               Voir le projet →
