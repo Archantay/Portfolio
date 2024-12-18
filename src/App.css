@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #070354;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Sections */
+section {
+  padding: 60px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section h2 {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: ghostwhite;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Présentation */
+.presentation {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 60px 20px;
+  overflow: hidden;
+  z-index: 1;
 }
 
-.App-link {
-  color: #61dafb;
+
+.presentation-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Aligne l'image et le texte verticalement */
+  justify-content: space-between; /* Ajoute de l'espace entre les deux éléments */
+  width: 100%;
+  max-width: 1200px; /* Pour limiter la largeur de la section */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.presentation .image {
+  flex: 0 0 30%; /* L'image occupe 30% de la largeur */
+  padding-top: 30%;
+  background-color: transparent;
+  border-radius: 50%;  /* Permet de donner un arrondi parfait */
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #2db6e78f; /* Pour l'effet de disque galactique */
+  box-shadow: 0 0 50px rgba(72, 254, 254, 0.727), 
+              0 0 30px rgba(29, 97, 153, 0.732);
+}
+
+.presentation .image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.presentation .text {
+  flex: 1; /* Le texte occupe le reste de l'espace */
+  margin-left: 20px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: ghostwhite;
+  text-align: left; /* Alignement à gauche */
+}
+
+.projets, .skills {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
