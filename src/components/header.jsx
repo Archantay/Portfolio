@@ -15,7 +15,16 @@ const Header = () => {
       <li><a href="#presentation">Présentation</a></li>
           <li><a href="#projets">Mes projets</a></li>
           <li><a href="#competences">Mes compétences</a></li>
-          <li><a href="#contact">Me Contacter</a></li>
+          <li><a href="#contact" 
+            onClick={(e) => {
+              e.preventDefault();
+              const email = "lutringerkevin@gmail.com";
+              const subject = "";
+              const body = "";
+              window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            }}>
+              Me contacter
+            </a></li>
       </ul>
     </nav>
     <div className="socials">
