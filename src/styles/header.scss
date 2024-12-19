@@ -15,7 +15,7 @@
 
 body {
   margin: 0;
-  padding-top: 80px; /* Ajoute de l'espace en haut de la page pour compenser le header fixe */
+  padding-top: 80px;
 }
 
 .header .logo h1 {
@@ -42,7 +42,7 @@ body {
 }
 
 .header nav ul li {
-  margin:0 30px 0 20px;  /* Espace régulier entre les catégories */
+  margin:0 30px 0 20px;
 }
 
 .header nav ul li a {
@@ -58,11 +58,11 @@ body {
 .header .socials {
   display: flex;
   align-items: center;
-  margin-left: 15px;  /* Espace plus petit entre les catégories et les icônes sociales */
+  margin-left: 15px;
 }
 
 .header .socials a {
-  margin-left: 10px;  /* Espace réduit entre les icônes sociales */
+  margin-left: 10px;
 }
 
 .header .socials img {
