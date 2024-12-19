@@ -3,17 +3,15 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Carrousel from './components/carousel';
 import photo from './photo/photoPresentation.jpg';
-import Competences from './components/competencesTest'
-import './App.css'; // Import du fichier SCSS
+import Competences from './components/competences';
+import './App.css';
 
 
 const App = () => {
   return (
     <div className="App">
-      {/* Header Section */}
       <Header />
       
-      {/* Présentation Section */}
       <section id="presentation" className="presentation">
         <h2>Présentation</h2>
         <div className="presentation-container">
@@ -28,23 +26,20 @@ const App = () => {
               Que ce soit en équipe ou en solo, j’aime relever de nouveaux défis et approfondir mes connaissances.
               Mon objectif ? Apporter ma créativité et mon savoir-faire technique pour contribuer à des projets captivants, tout en continuant à évoluer dans un domaine en constante évolution.
             </p>
+            <a href="/CV-Lutringer-Kevin.pdf" download="CV-Lutringer-Kevin" className="download-btn">Mon CV</a>
           </div>
         </div>
       </section>
 
-      {/* Projets Section */}
       <section id="projets" className="projets">
         <h2>Mes projets</h2>
         <Carrousel />
       </section>
 
-      {/* Compétences Section */}
       <section id="competences" className='competences'>
         <Competences />
       </section>
       
-
-      {/* Footer Section */}
       <Footer />
     </div>
   );
