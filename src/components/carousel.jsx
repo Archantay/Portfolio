@@ -8,7 +8,6 @@ import '../styles/carousel.scss';
 const Carrousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
-  // Liste des projets avec titres, descriptions et images
   const projects = [
     { title: "Site Booki",
       description: "J'ai du developper une page d'accueil pour une agence de voyage.",
@@ -52,7 +51,6 @@ const Carrousel = () => {
 
   return (
     <div className="carrousel">
-      {/* Flèche gauche */}
       <button className="carrousel-btn prev" onClick={prevProject}>←</button>
 
       <div className="carrousel-images">
@@ -78,7 +76,6 @@ const Carrousel = () => {
         </div>
       </div>
 
-      {/* Flèche droite */}
       <button className="carrousel-btn next" onClick={nextProject}>→</button>
     </div>
   );
