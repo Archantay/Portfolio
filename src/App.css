@@ -97,3 +97,41 @@ section h2 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+@media (max-width: 767px) {
+  .presentation {
+    padding-top: 70px;
+  }
+
+  .presentation-container {
+    flex-direction: column; /* Image au-dessus du texte */
+    align-items: center;
+    text-align: center;
+  }
+
+  .presentation .image {
+    flex: none;
+    width: 150px; /* Réduire la taille de l'image */
+    height: 150px; /* Assurer un carré parfait */
+    padding-top: 0;
+  }
+
+  .presentation .text {
+    margin-top: 20px; /* Ajouter de l'espace entre l'image et le texte */
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .presentation .download-btn {
+    margin: 20px auto 0; /* Centrer le bouton sous le texte */
+  }
+}
+
+.projets, .skills {
+  display: flex;
+  flex-direction: column;
+}
+
+section .projets {
+  padding: 0;
+}
