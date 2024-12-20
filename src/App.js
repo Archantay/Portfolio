@@ -3,6 +3,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Carrousel from './components/carousel';
 import photo from './photo/photoPresentation.jpg';
+import cv from './photo/CV-Lutringer-Kevin.pdf';
 import Competences from './components/competences';
 import './App.css';
 
@@ -26,7 +27,7 @@ const App = () => {
               Que ce soit en équipe ou en solo, j’aime relever de nouveaux défis et approfondir mes connaissances.
               Mon objectif ? Apporter ma créativité et mon savoir-faire technique pour contribuer à des projets captivants, tout en continuant à évoluer dans un domaine en constante évolution.
             </p>
-            <a href="/CV-Lutringer-Kevin.pdf" download="CV-Lutringer-Kevin" className="download-btn">Mon CV</a>
+            <a href={cv} download="CV-Lutringer-Kevin" className="download-btn">Mon CV</a>
           </div>
         </div>
       </section>
