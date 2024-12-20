@@ -51,7 +51,7 @@ const Carrousel = () => {
 
   return (
     <div className="carrousel">
-      <button className="carrousel-btn prev" onClick={prevProject}>←</button>
+      <button className="carrousel-btn prev" onClick={prevProject}></button>
 
       <div className="carrousel-images">
         <div className="carrousel-card prev-card">
@@ -76,7 +76,7 @@ const Carrousel = () => {
         </div>
       </div>
 
-      <button className="carrousel-btn next" onClick={nextProject}>→</button>
+      <button className="carrousel-btn next" onClick={nextProject}></button>
     </div>
   );
 };
