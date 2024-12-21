@@ -43,6 +43,8 @@ body {
 
 .header nav ul li {
   margin:0 30px 0 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .header nav ul li a {
