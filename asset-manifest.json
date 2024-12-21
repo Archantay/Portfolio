@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6ad23a26.css",
+    "main.js": "/Portfolio/static/js/main.fa07b7a4.js",
+    "static/js/488.9561f9b8.chunk.js": "/Portfolio/static/js/488.9561f9b8.chunk.js",
+    "static/media/ninaCarducciPresentation.png": "/Portfolio/static/media/ninaCarducciPresentation.be7cdc79ac16237b5d60.png",
+    "static/media/kasaPresentation.png": "/Portfolio/static/media/kasaPresentation.026b622c9ed0d4bcb989.png",
+    "static/media/photoPresentation.jpg": "/Portfolio/static/media/photoPresentation.c9f3f5773a192183a836.jpg",
+    "static/media/sophieBluelPresentation.png": "/Portfolio/static/media/sophieBluelPresentation.79f6a44594f0cfc43866.png",
+    "static/media/siteBookiPresentation.png": "/Portfolio/static/media/siteBookiPresentation.e493de496b9a79b17650.png",
+    "static/media/contactLogo.png": "/Portfolio/static/media/contactLogo.d664358c8e1be8e36279.png",
+    "static/media/linkedinLogoRond.png": "/Portfolio/static/media/linkedinLogoRond.8164f0cf4841b38b961e.png",
+    "static/media/linkedinLogoCarre.png": "/Portfolio/static/media/linkedinLogoCarre.2e62cf6f996bd4e00b5e.png",
+    "static/media/CV-Lutringer-Kevin.pdf": "/Portfolio/static/media/CV-Lutringer-Kevin.248c6c3cd9a5746f2d12.pdf",
+    "static/media/github_PNG40.png": "/Portfolio/static/media/github_PNG40.1ff6d9646165b7f34af9.png",
+    "index.html": "/Portfolio/index.html",
+    "main.6ad23a26.css.map": "/Portfolio/static/css/main.6ad23a26.css.map",
+    "main.fa07b7a4.js.map": "/Portfolio/static/js/main.fa07b7a4.js.map",
+    "488.9561f9b8.chunk.js.map": "/Portfolio/static/js/488.9561f9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ad23a26.css",
+    "static/js/main.fa07b7a4.js"
+  ]
+}
