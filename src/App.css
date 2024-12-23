@@ -6,6 +6,10 @@ body {
   background-color: #070354;
 }
 
+header {
+  padding-bottom: 10px;
+}
+
 /* Sections */
 section {
   padding: 60px 20px;
@@ -73,17 +77,18 @@ section h2 {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 30px;
-  background-color: #2db6e7;
+  background-color: #070354;
   color: white;
   font-size: 1.1rem;
   text-align: center;
   text-decoration: none;
   border-radius: 5px;
+  border: 1px solid #9a9a9ecd;
   transition: background-color 0.3s ease;
 }
 
 .download-btn:hover {
-  background-color: #1d99c8;
+  background-color: #9a9a9ecd;
 }
 
 .projets, .skills {
@@ -104,26 +109,26 @@ section h2 {
   }
 
   .presentation-container {
-    flex-direction: column; /* Image au-dessus du texte */
+    flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
   .presentation .image {
     flex: none;
-    width: 150px; /* Réduire la taille de l'image */
-    height: 150px; /* Assurer un carré parfait */
+    width: 150px;
+    height: 150px;
     padding-top: 0;
   }
 
   .presentation .text {
-    margin-top: 20px; /* Ajouter de l'espace entre l'image et le texte */
+    margin-top: 20px;
     font-size: 1rem;
     text-align: center;
   }
 
   .presentation .download-btn {
-    margin: 20px auto 0; /* Centrer le bouton sous le texte */
+    margin: 20px auto 0;
   }
 }
 
@@ -135,3 +140,10 @@ section h2 {
 section .projets {
   padding: 0;
 }
+
+@media (max-width: 426px) {
+  .presentation {
+    padding-top: 110px;
+  }
+}
+
