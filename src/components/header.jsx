@@ -13,8 +13,8 @@ const Header = () => {
     <nav>
       <ul>
       <li><a href="#presentation">Présentation</a></li>
-          <li><a href="#projets">Mes projets</a></li>
-          <li><a href="#competences">Mes compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#competences">Compétences</a></li>
           <li><a href="#contact" 
             onClick={(e) => {
               e.preventDefault();
@@ -23,7 +23,7 @@ const Header = () => {
               const body = "";
               window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
             }}>
-              Me contacter
+              Contact
             </a></li>
       </ul>
     </nav>
