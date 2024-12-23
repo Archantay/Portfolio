@@ -10,7 +10,7 @@ const Carrousel = () => {
   
   const projects = [
     { title: "Site Booki",
-      description: "J'ai du developper une page d'accueil pour une agence de voyage.",
+      description: "J'ai dû developper une page d'accueil pour une agence de voyage.",
       issue: "Rendre les page d'accueil responsive et conforme à la maquette.",
       skills: "HTML et CSS",
       link: "https://git@github.com/Archantay/Projet-2-Cr-er-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-CSS.git",
