@@ -5,6 +5,7 @@ import jsLogo from "../photo/logo/javascriptLogo.png";
 import reactLogo from "../photo/logo/reactLogo.png";
 import nodejsLogo from "../photo/logo/node.jsLogo.png";
 import figmaLogo from "../photo/logo/figmaLogo.png";
+import mongodbLogo from "../photo/logo/mongodbLogo.png";
 import "../styles/competences.scss";
 
 const skills = [
@@ -14,6 +15,7 @@ const skills = [
   { id: 4, name: "React", logo: reactLogo, tooltip: "Mes composants vivent en harmonie." },
   { id: 5, name: "Node.js", logo: nodejsLogo, tooltip: "Serveurs et API, c'est ma zone de confort." },
   { id: 6, name: "Figma", logo: figmaLogo, tooltip: "Des idées aux pixels, tout est sous contrôle." },
+  { id: 7, name: "Mongodb", logo: mongodbLogo, tooltip: "Parce que même les données méritent un inventaire bien organisé !" },
 ];
 
 const Competences = () => {
