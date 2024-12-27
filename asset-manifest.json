@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d45c97e7.css",
-    "main.js": "/Portfolio/static/js/main.12dee81c.js",
+    "main.css": "/Portfolio/static/css/main.9c278c70.css",
+    "main.js": "/Portfolio/static/js/main.3fa2b7a1.js",
     "static/js/488.9561f9b8.chunk.js": "/Portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/ninaCarducciPresentation.png": "/Portfolio/static/media/ninaCarducciPresentation.be7cdc79ac16237b5d60.png",
     "static/media/kasaPresentation.png": "/Portfolio/static/media/kasaPresentation.026b622c9ed0d4bcb989.png",
@@ -13,13 +13,14 @@
     "static/media/linkedinLogoCarre.png": "/Portfolio/static/media/linkedinLogoCarre.2e62cf6f996bd4e00b5e.png",
     "static/media/CV-Lutringer-Kevin.pdf": "/Portfolio/static/media/CV-Lutringer-Kevin.248c6c3cd9a5746f2d12.pdf",
     "static/media/github_PNG40.png": "/Portfolio/static/media/github_PNG40.1ff6d9646165b7f34af9.png",
+    "static/media/mongodbLogo.png": "/Portfolio/static/media/mongodbLogo.5f31bfbd87f70e9ab297.png",
     "index.html": "/Portfolio/index.html",
-    "main.d45c97e7.css.map": "/Portfolio/static/css/main.d45c97e7.css.map",
-    "main.12dee81c.js.map": "/Portfolio/static/js/main.12dee81c.js.map",
+    "main.9c278c70.css.map": "/Portfolio/static/css/main.9c278c70.css.map",
+    "main.3fa2b7a1.js.map": "/Portfolio/static/js/main.3fa2b7a1.js.map",
     "488.9561f9b8.chunk.js.map": "/Portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d45c97e7.css",
-    "static/js/main.12dee81c.js"
+    "static/css/main.9c278c70.css",
+    "static/js/main.3fa2b7a1.js"
   ]
 }
