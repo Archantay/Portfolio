@@ -103,7 +103,7 @@ section h2 {
   justify-content: space-between;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 766px) {
   .presentation {
     padding-top: 70px;
   }
