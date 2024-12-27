@@ -16,16 +16,31 @@ const Footer = () => {
       const subject = "";
       const body = "";
       window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    }}
-    >
+    }}>
           <img src= {contactLogo} alt="Contact" />
           </a>
         
-        <a href="https://github.com/Archantay" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-          <img src= {githubLogo} alt="GitHub" />
+        <a href="https://github.com/Archantay" target="_blank" rel="noopener noreferrer" aria-label="GitHub" style={{
+          display: 'inline-block',
+          width: '30px',
+          height: '30px',
+        }}>
+          <img src= {githubLogo} alt="GitHub" style={{
+              position: 'relative',
+              bottom: '-1px',
+              scale: '1.3',
+        }}/>
         </a>
-        <a href="https://www.linkedin.com/in/kevin-lutringer-b00625279/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-          <img src= {linkedinLogo} alt="LinkedIn" />
+        <a href="https://www.linkedin.com/in/kevin-lutringer-b00625279/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{
+          display: 'inline-block',
+          width: '30px',
+          height: '30px',
+        }}>
+          <img src= {linkedinLogo} alt="LinkedIn" style={{
+          position: 'relative',
+          right: '4px',
+          scale: '1.3',
+        }}/>
         </a>
       </div>
       <p>&copy; 2024 Kevin Lutringer, Tous droits réservés.</p>
