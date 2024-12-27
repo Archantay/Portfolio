@@ -53,6 +53,29 @@
   }
 }
 
+@media (max-width: 1440px) {
+  .competences {  
+    .skill-icon{
+      .tooltip {
+        left: -220%;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .competences {  
+    .skill-icon{
+      .tooltip {
+        left: 5%;
+        width: 170%;
+        white-space: wrap;
+      }
+    }
+  }
+}
+
 @media (max-width: 426px) {
   .competences {  
     .skill-icon{
