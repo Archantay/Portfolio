@@ -5,7 +5,7 @@ import Carrousel from './components/carousel';
 import photo from './photo/photoPresentation.jpg';
 import cv from './photo/CV-Lutringer-Kevin.pdf';
 import Competences from './components/competences';
-import './App.css';
+import './App.scss';
 
 
 const App = () => {
